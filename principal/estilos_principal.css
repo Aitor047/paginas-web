@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cabecera {
+    background:url('img/paisaje.jpg') no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    min-height: 5vh;
+    background-size: cover;
+    
+}
+.encabezado {
+    position: relative;
+}
+.icono { 
+    position: relative;
+    font-size: 1.6em;
+    border: none;
+    background-color: transparent;
+    outline: none;  
+    height: 40px;
+    cursor: pointer;
+    align-items: center; 
+}
+.info {
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    padding: 5px;
+    width: 85px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    outline: none;  
+    height: 40px;
+    cursor: pointer; 
+    backdrop-filter: blur(15px);
+    left: 490px;
+    top: 7%;
+}
+.logout {
+    font-size: 1em;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    outline: none;  
+    height: 40px;
+    cursor: pointer; 
+    margin-right: 8px;
+    backdrop-filter: blur(15px);
+}
