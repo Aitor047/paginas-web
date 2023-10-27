@@ -1,1 +1,1 @@
-console.log("HOLA MUNDO");
+const buton = document.querySelector(".button")
